@@ -1,24 +1,21 @@
 {
-  "name": "courserafrontend",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "coursera front end learning",
-  "main": "index.js",
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FrederickCabedoce/gettingbetteratfrontend.git"
-  },
-  "author": "Fred",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FrederickCabedoce/gettingbetteratfrontend/issues"
-  },
-  "homepage": "https://github.com/FrederickCabedoce/gettingbetteratfrontend#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
